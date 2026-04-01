@@ -1,0 +1,50 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #007BFF;
+  color: whitesmoke;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+#header input, header select, header button {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+#flightContainer {
+  display: grid;
+  grid-template-columns: auto auto;   
+  padding: 20px;
+  gap: 15px;
+}
+
+.flight-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px hotpink
+}
+
+#loader {
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.dark {
+  background: #121212;
+  color: white;
+}
+
+.dark .flight-card {
+  background: #1e1e1e;
+}
